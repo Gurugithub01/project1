@@ -1,0 +1,132 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/Flipkart_files/BG/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: whitesmoke;
+}
+.Container {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    float: left;
+    max-width: 130px;
+    max-height: 130px;
+    object-fit: cover;
+    padding-left: 50px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-top: 5px;
+    height: 60px;
+}
+h1:hover {
+    color: mediumspringgreen;
+}
+#About {
+    font-family: sans-serif;
+    font-size: x-large;
+    margin: 0px 30px;
+}
+#About h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 0;
+}
+#About a {
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+#About a:hover {
+    color: mediumspringgreen;
+}
+#About a:active{
+    color: red;
+}
+strong{
+    color: red;
+}
+i {
+    color: blue;
+}
+em {
+    color: yellow;
+}
+#Aside-Table th,tr,td{
+    border: 2px solid grey;
+    padding: 20px 60px;
+}
+th {
+    color: black;
+    background-color: white;
+    font-size: large;
+}
+#Aside-Table {
+    padding-left: 100px;
+    float: left;
+    margin-top: 130px;
+}
+td {
+    font-size: large;
+    text-align: center;
+}
+.Head{
+    float: left;
+    padding-left: 335px;
+    font-weight: bold;
+    font-size: large;
+    color: springgreen;
+    margin-top: 10px;
+}
+.Form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    margin-right: 250px;
+    margin-top: 15px;
+    line-height: 30px;
+    font-size: large;
+}
+.Subs ,.Radio{
+    margin-bottom: 15px;
+}
+.Subs label {
+    display: block;
+    color: mediumspringgreen;
+}
+.Subs input {
+    padding: 8px 0;
+    width: 350px;
+    background-color: lightgrey;
+}
+.Subs select {
+    padding: 5px;
+    background-color: lightgrey;
+}
+#Mobile {
+    width: 290px;
+}
+.Radio label{
+    display: block;
+    color: mediumspringgreen;
+}
+.Radio {
+    color: mediumturquoise;
+}
+.Subs button {
+    padding: 10px 145px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 3px solid white;
+    background-color: mediumspringgreen;
+}
+.Subs button:hover {
+    color: red;
+}
