@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,7 +83,7 @@ h1 {
     min-height: 30px;
     font-size: x-large;
     padding: 5px 0;
-    font-weight: bold;
+    font-weigbold;
     background-color: mediumaquamarine;
     border-color: white;
     color: black;
@@ -92,7 +92,7 @@ h1 {
     margin-left: 30px;
     border: 4px solid white;
 }
-.dropdown-content {
+.dropdown-content {float-right	
     font-size: large;
     width: 180px;
     display: none;
