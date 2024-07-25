@@ -1,0 +1,2025 @@
+<html>
+<head>
+<body>
+<h1>Javascript in Body section</h1>
+<h2 id="mt"></h2>
+<script>
+document.getElementById("mt") .innerHTML="Welcome"
+</script>
+</body>
+</head>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1 id="bt">Button</h1>
+<button onclick='document.getElementById("bt") .innerHTML="Changed New"'>Click here!</button>
+</body>
+</head>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Write</h1>
+<script>
+document.write("Hello World!")
+</script>
+</body>
+</head>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Alert and Print</h1>
+<button onclick="print()">Print</button>
+<script>
+alert("Alert World")
+</script>
+</body>
+</head>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Comments and Date</h1>
+<h2>//Using for Single Line Comments</h2>
+<h2>/*Using for Multi-Line Comments*/</h2>
+<p id="mt"></p>
+<button onclick='document.getElementById("mt") .innerHTML=Date()'>Click here!</button>
+</body>
+</head>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Var</h1>
+<script>
+var a=20
+var a=40
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>var using number</h1>
+</body>
+<script>
+var a=100
+var b=200
+var c=a+b
+document.write("The Answer is:"+c)
+</script>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Var using Alphabet</h1>
+<script>
+var fruit=100
+var cost=10
+var value=fruit*cost
+document.write("The Total Value is RS:"+value+".00")
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Using Let</h1>
+<script>
+let car="Agera",color="Black",price="$100000"
+document.write(car)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Let Description</h1>
+<script>
+let a=100
+{
+let a=10
+}
+document.write(a)
+</script>
+</body>
+<head>
+<html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Const</h1>
+<p>Its seems like a Let,but we cannot change the value.Simply as Constant Value</p>
+<script>
+const a=10
+{
+const a=1000
+}
+document.write("The value is:"+a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Operator</h1>
+<script>
+var a=10
+a += 90
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Arithmetic Operator</h1>
+<script>
+var a=100
+a=(10*20)+a
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Incremental Operator</h1>
+<script>
+var a=10
+a++
+var b=a
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<h1>Exponentiation Operator</h1>
+<body>
+<script>
+var a=5
+document.write(a **3)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Datatypes</h1>
+<script>
+var a="volvo"+15+5
+var b=15+5+"BMW"
+document.write(a+"<br>"+b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JavaScript Types are Dynamic</h1>
+<script>
+var a;
+var b=10
+var c="10000"
+document.write(typeof a+"<br>"+typeof b+"<br>"+typeof c)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Exponential Notation</h1>
+<script>
+var a=123e7
+var b=123e-6
+document.write(a+"<br>"+b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Booleans</h1>
+<script>
+var a=5
+var b=5
+var c=7
+document.write((a==b)+"<br>"+(a==c))
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array</h1>
+<script>
+var a=["BMW","Audi","Kia"]
+document.write(a[1])
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Empty Values</h1>
+<script>
+var a=""
+var b="1000"
+document.write("the value is"+a+"<br>"+"the type is:"+typeof b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Function</h1>
+<h2>A JavaScript function is a block of code designed to perform a particular task.</h2>
+<script>
+function abc()
+{
+document.write("Hello World!!!")
+}
+abc()
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Return Function</h1>
+<script>
+function abc(a,b)
+{
+return (a*b)
+}
+var ans=abc(10,20)
+document.write(ans)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Return Functions Used as Variable Values</h1>
+<script>
+function abc(a,b)
+{
+return (10*20)+2
+}
+var ans="the value is:"+abc(10,20)
+document.write(ans)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects</h1>
+<script>
+var car={color:"White",design:"500",model:"Fiat"}
+document.write(car.design)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects</h1>
+<script>
+var person={}
+person.firstname="john"
+person.lastname="Joe"
+person.age=40
+document.write(person.firstname+person.age)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects</h1>
+<script>
+var car={
+color:"red",
+model:"fiat"
+}
+document.write(car["color"])
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects with Functions</h1>
+<script>
+var car={
+color:"Blue",
+name:"BMW",
+fullname:function(){
+return this.color+" "+this.name
+}
+}
+document.write(car.fullname())
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects</h1>
+<script>
+var car={color:"White",model:"BMW"}
+x=car
+x.color="Black"
+document.write(car.color+" "+car.model)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects Properties (Added)</h1>
+<script>
+var car={color:"Red",name:"Fiat"}
+car.model="500"
+document.write(car.color+" "+car.model)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects Properties (Remove)</h1>
+<script>
+var car={color:"White",Design:"Audi",model:"A8"}
+delete car.model
+document.write(car.Design+" "+car.model)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects Properties (Nested Object)</h1>
+<script>
+var car={
+color:"Grey",
+name:"Audi",
+model:{
+series:"A6"
+}
+}
+document.write(car.model.series)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects Display (JSON.stringify())</h1>
+<script>
+var car={color:"Red",name:"Ferrari"}
+document.write(JSON.stringify(car))
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects Display (Object.entries())</h1>
+<script>
+var fru={apple:300,banana:200,grapes:150}
+ans=""
+for(var[fruit,value]of Object.entries(fru)){
+ans +=fruit+value+"<br>"
+}
+document.write(ans)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Objects Constructors</h1>
+<script>
+function frd(one,two,three){
+this.F=one
+this.S=two
+this.T=three
+}
+var my=new frd("john","Reena","Ajay")
+document.write(my.S)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String Length</h1>
+<script>
+var a="Hello World"
+document.write(a.length)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String charAt</h1>
+<script>
+var a="Hello World"
+document.write(a.charAt(0)+" "+a.charAt(1))
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String charCodeAt</h1>
+<script>
+var a="Hello World"
+document.write(a.charCodeAt(0))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String at</h1>
+<script>
+var a="Hello World"
+document.write(a.at(0)+" "+a.at(1))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String []</h1>
+<script>
+var a="Hello World"
+document.write(a[0]+" "+a[1])
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String slice</h1>
+<script>
+var a="Hello World"
+document.write(a.slice(1,5))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String substr</h1>
+<script>
+var a="Hello World"
+document.write(a.substr(3,5))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String toUpperCase</h1>
+<script>
+var a="Hello World"
+document.write(a.toUpperCase())
+</script>
+</body>
+</head>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String toLowerCase</h1>
+<script>
+var a="Hello World"
+document.write(a.toLowerCase())
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String concat</h1>
+<script>
+var a="Hello"
+var b="World"
+document.write(a.concat(b))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String trim,trimStart,trimEnd</h1>
+<script>
+var a="    Hello World    "
+var b=a.trim()
+document.write(a.length+"<br>"+b.length)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String PadStart and PadEnd</h1>
+<script>
+var a="7"
+document.write(a.padStart(4,0)+"<br>")
+document.write(a.padEnd(6,1))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String Repeat</h1>
+<script>
+var a="Hello World,"
+document.write(a.repeat(4))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String Replace</h1>
+<script>
+var a="Hello World.World are amazing"
+var b=a.replace("World","People")
+var c=a.replaceAll("World","People")
+document.write(b,c)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String Split</h1>
+<script>
+var a="H,E,L,L,O"
+var b=a.split(",")
+document.write(b[1])
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String Indexof and LastIndexOf</h1>
+<script>
+var a="Hello World.Best in the 'World'"
+var b=a.indexOf("World")
+var c=a.lastIndexOf("World")
+document.write(b,c)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String Search</h1>
+<script>
+var a="Hello World.Best in the 'World'"
+var b=a.search("World")
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String Match and MatchAll</h1>
+<script>
+var a="Hello World.Best in the World.World are Beautiful"
+var b=a.match("World")
+var iterator=a.matchAll("World")
+document.write(b.length)
+document.write(Array.from(iterator))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String Includes</h1>
+<script>
+var a="Hello World.Best in the World.World are Beautiful"
+document.write(a.includes("World"))
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>String StartsWith and Endswith</h1>
+<script>
+var a="Hello World.Best in the World.World are Beautiful"
+document.write(a.startsWith("Hello"))
+document.write(a.endsWith("Hello"))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Numbers</h1>
+<script>
+var a="100"
+var b="20"
+var c=a+b
+document.write(c)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Numbers (NaN)</h1>
+<script>
+var a=100
+var b="Apple"
+document.write(a/b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Numbers (Infinity)</h1>
+<script>
+var a=2/0
+var b=-2/0
+document.write(a,b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Numbers as Object</h1>
+<script>
+var a=123
+var b=new Number(123)
+document.write(typeof(a)+"<br>"+typeof(b))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>BigInt</h1>
+<script>
+var a=12345678901234567890
+var b=BigInt(12345678901234567890)
+document.write(a+"<br>"+b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>BigInt</h1>
+<script>
+var a=BigInt(12345678901234567890)
+document.write(typeof(a))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>BigInt</h1>
+<script>
+var a=12345678901234567890n
+var b=12345678901234567890n
+document.write(a*b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>BigInt</h1>
+<script>
+var a=123456789==123456789
+var b=123456789==1234567890
+document.write(a+"<br>"+b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method</h1>
+<script>
+var x=123
+document.write(x.toString())
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method</h1>
+<script>
+var x=12
+document.write(x.toExponential(2))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method</h1>
+<script>
+var x=12
+document.write(x.toFixed(4))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method</h1>
+<script>
+var x=12
+document.write(x.toPrecision(5))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method</h1>
+<script>
+var x=123
+document.write(x.valueOf()+"<br>"+(456).valueOf())
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method (Converting Variables to Numbers)</h1>
+<script>
+document.write(Number(true)+"<br>"+Number(false)+"<br>"+Number("9,10"))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method (Converting Variables to Numbers)</h1>
+<script>
+var a="98 10"
+var b="9.10 11"
+document.write(parseInt(a))
+document.write(parseFloat(b))
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method (Number Object Methods)</h1>
+<script>
+var a=100
+var b=10.4
+document.write(Number.isInteger(a)+"<br>"+Number.isInteger(b))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Method (Number Object Methods)</h1>
+<script>
+var a=100
+var b=10.5
+document.write(Number.isSafeInteger(a)+"<br>"+Number.isSafeInteger(b))
+</script>
+</body>
+</head>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Properties</h1>
+<script>
+var a=Number.EPSILON
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Properties</h1>
+<script>
+var a=Number.MAX_VALUE
+var b=Number.MIN_VALUE
+document.write(a+"<br>"+b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Properties</h1>
+<script>
+var a=Number.MAX_SAFE_INTEGER
+var b=Number.MIN_SAFE_INTEGER
+document.write(a+"<br>"+b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Number Properties</h1>
+<script>
+var a=Number.POSITIVE_INFINITY
+var b=Number.NEGATIVE_INFINITY
+document.write(a+"<br>"+b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array</h1>
+<script>
+var a=["BMW","Audi","Fiat"]
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array</h1>
+<script>
+var a=[
+"BMW",
+"Audi",
+"Fiat"
+]
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array</h1>
+<script>
+var a=[]
+a[0]="BMW",
+a[1]="Fiat",
+a[2]="Audi"
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array New</h1>
+<script>
+var a=new Array("BMW","Audi")
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array</h1>
+<script>
+var a=["Audi","Fiat","BMW"]
+document.write(a[1])
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Length</h1>
+<script>
+var a=["Audi","Fiat","BMW","Agera","Porshe"]
+document.write(a.length)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Typeof</h1>
+<script>
+var a=["Cricket","Football","Boxing"]
+document.write(typeof(a))
+</script>
+</body>
+</head>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-at</h1>
+<script>
+var a=["Basketball","Ruby","Golf"]
+document.write(a.at(1))
+</script>
+</body>
+</head>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Join</h1>
+<script>
+var a=["Basketball","Ruby","Golf"]
+document.write(a.join(" * "))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Pop</h1>
+<script>
+var a=["Basketball","Ruby","Golf"]
+a.pop()
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Push</h1>
+<script>
+var a=["Basketball","Ruby","Golf"]
+a.push("Cycling")
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Shift</h1>
+<script>
+var a=["Basketball","Ruby","Golf"]
+a.shift()
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-UnShift</h1>
+<script>
+var a=["Basketball","Ruby","Golf"]
+a.unshift("Running")
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Delete</h1>
+<script>
+var a=["Basketball","Ruby","Golf"]
+delete a[1]
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Concat</h1>
+<script>
+var a=["Sky Driving"]
+var b=["Skating"]
+document.write(a.concat(b))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-CopyWithin</h1>
+<script>
+var a=["Archer","Chess","Carrom"]
+document.write(a.copyWithin(2,0))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Flat</h1>
+<script>
+var a=[[1,2],[3,4],[5,6]]
+document.write(a.flat())
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Splice</h1>
+<script>
+var a=["Surfing","Zorbing","Gym"]
+a.splice(1,0,"Yoyo","Hockey")
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-toSpliced</h1>
+<script>
+var a=["Surfing","Zorbing","Gym"]
+var b=a.toSpliced(0,1)
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Methods-Slice</h1>
+<script>
+var a=["Surfing","Zorbing","Gym"]
+var b=a.slice(2,3)
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Search-indexof</h1>
+<script>
+var a=["Surfing","Zorbing","Gym"]
+document.write(a.indexOf("Gym"))
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Search-lastIndexOf</h1>
+<script>
+var a=["Surfing","Zorbing","Gym"]
+document.write(a.lastIndexOf("Gym"))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Search-Includes</h1>
+<script>
+var a=["Surfing","Zorbing","Gym"]
+document.write(a.includes("Gym"))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Search-Find</h1>
+<script>
+var a=[5,20,12,60,31]
+var b=a.find(abc)
+function abc(d){
+return d>15
+}
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Search-FindIndex</h1>
+<script>
+var a=[4,9,5,16,1,25,7,29,32]
+var b=a.findIndex(abc)
+function abc(d){
+return d>18
+}
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Search-FindLast and FindLastIndex</h1>
+<script>
+var a=[27,28,30,40,42,35,30]
+var b=a.findLast((a)=> a>30)
+document.write(b)
+var x=[27,28,30,40,42,35,30]
+var y=x.findLastIndex((z)=> z>40)
+document.write(y)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array sort</h1>
+<script>
+var a=["jan","feb","mar"]
+document.write(a.sort())
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Reverse</h1>
+<script>
+var a=["jan","feb","mar"]
+document.write(a.reverse())
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Numeric sort</h1>
+<script>
+var a=[40,100,1,5,25,10]
+a.sort(function(a,b){return a-b})
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Numeric Random sort</h1>
+<script>
+var a=[40,100,1,5,25,10]
+function abc(){
+a.sort (function(){return 0.5-Math.random()})
+}
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Numeric Math Min</h1>
+<script>
+var a=[40,100,1,5,25,10]
+function abc(d){
+return Math.min.apply(null,d)
+}
+document.write(abc(a))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-forEach</h1>
+<script>
+var a=[45,4,9,16,25]
+var b=""
+a.forEach(abc)
+function abc(d){
+b += d+"<br>"
+}
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-Map</h1>
+<script>
+var a=[45,4,9,16,25]
+var b=a.map(abc)
+function abc(d){
+return d*2
+}
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-Flatmap</h1>
+<script>
+var a=[1,2,3,4,5]
+var b=a.flatMap((c)=>c*2)
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-Filter</h1>
+<script>
+var a=[1,2,3,4,5]
+var b=a.filter(abc)
+function abc(d){
+return d>2
+}
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-Reduce</h1>
+<script>
+var a=[1,2,3,4,5]
+var b=a.reduce(abc)
+function abc(d,e){
+return d+e
+}
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-Every and Some</h1>
+<script>
+var a=[1,2,3,4,5]
+var b=a.every(abc)
+function abc(d){
+return d>2
+}
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-Array From</h1>
+<script>
+var a=Array.from("ABCDEF")
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-Array With</h1>
+<script>
+var a=["jan","feb","mar"]
+var b=a.with(2,"March")
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Array Iteration-Array Spread</h1>
+<script>
+var q1=["Jan","Feb","Mar"]
+var q2=["apr","may","jun"]
+var a=[...q1,...q2]
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS date</h1>
+<script>
+var a=new Date()
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS date</h1>
+<script>
+var a=new Date(2024,06,07,03,44,45)
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS date</h1>
+<script>
+var a=new Date(99,11,15)
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Date Format</h1>
+<script>
+var a=new Date("2024-09-15")
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Date Get Method</h1>
+<script>
+var a=new Date(2024,11,07,04,02,55,38)
+document.write(a.getFullYear()+"<br>"+a.getMonth()+"<br>"+a.getDate()+"<br>"+a.getHours()+"<br>"+a.getMinutes()+"<br>"+a.getSeconds()+"<br>"+a.getMilliseconds())
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Date Set Method</h1>
+<script>
+var a=new Date()
+a.setFullYear(2020)
+document.write(a)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Math</h1>
+<script>
+document.write(Math.PI+"<br>"+Math.round(4.7)+"<br>"+Math.round(4.5)+"<br>"+Math.round(4.4)+"<br>"+Math.ceil(3.3)+"<br>"+Math.floor(2.7)+"<br>"+Math.trunc(4.6)+"<br>"+Math.sign(50)+"<br>"+Math.sqrt(64)+"<br>"+Math.pow(4,2)+"<br>"+Math.abs(-4.7)+"<br>")
+document.write(Math.min(4,10,0,-4,-200,150)+"<br>")
+document.write(Math.max(4,10,0,-4,-200,150)+"<br>")
+</script>
+</body>
+</head>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Boolean</h1>
+<script>
+document.write(Boolean(10>8)+"<br>")
+document.write(Boolean(10<8))
+</script>
+</body>
+</head>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS If Statement</h1>
+<script>
+var a=true
+if(a){
+document.write("It's true")
+}
+</script>
+</body>
+</head>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS If Else Statement</h1>
+<script>
+var age=19
+if(age>=18){
+document.write("Vote")
+}
+else{
+document.write("No Vote")
+}
+</script>
+</body>
+</head>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Else If Statement</h1>
+<script>
+var signal="green"
+if(signal=="red"){
+document.write("Stop")
+}
+else if(signal=="Yellow")
+{
+document.write("Wait")
+}
+else if(signal=="green")
+{
+document.write("Go")
+}
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>Switch Statement</h1>
+<script>
+var Floor=1
+switch(Floor){
+case 1:
+document.write("Floor 1")
+break;
+case 2:
+document.write("Floor 2")
+break;
+case 3:
+document.write("Floor 3")
+break;
+case 4:
+document.write("Floor 4")
+break;
+default:
+document.write("Ground Floor")
+break;
+}
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>For Loop</h1>
+<script>
+for(i=1;i<=10;i=i+1){
+document.write("Hello")
+}
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>For In Loop</h1>
+<script>
+var emp={
+id:123,
+name:"John",
+Role:"CEO"
+}
+for(ans in emp){
+document.write(ans,emp[ans])
+}
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>For Of Loop</h1>
+<script>
+var car=["BMW","Fiat","Audi"]
+for(ans of car){
+document.write(ans)
+}
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>While Loop</h1>
+<script>
+i=1
+while(i<=5){
+document.write("Hello World")
+i=i+1
+}
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Break</h1>
+<script>
+for(i=1;i<=5;i=i+1){
+document.write("Hello World")
+break
+}
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Continue</h1>
+<script>
+for(a=1;a<=3;a=a+1){
+document.write("JavaScript")
+continue
+document.write("Programming Language")
+}
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Sets</h1>
+<script>
+var a=[1,2,3,2,4]
+var b=new Set(a)
+console.log(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Sets</h1>
+<script>
+var a=new Set()
+a.add(1)
+a.add("hello")
+a.add(1)
+a.add(100)
+console.log(a)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Sets Delete,Size,Has</h1>
+<script>
+var a=new Set()
+a.add(1)
+a.add("hello")
+a.add(1)
+a.add(100)
+document.write(a.delete(1))
+document.write(a.size)
+document.write(a.has(100))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Map Delete,Size,Has</h1>
+<script>
+var a=new Map()
+a.set("a",100)
+a.set("World","b")
+a.set(10,"c")
+a.set("d",100)
+console.log(a)
+console.log(a.has(10))
+console.log(a.delete("d",100))
+console.log(a.size)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Type Conversion-Number</h1>
+<script>
+document.write(Number("3.14"),Number("John"),Number(" "),Number("99 20"))
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Type Conversion-String</h1>
+<script>
+document.write(String("3.14"),String("John"),String("99 15"))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Type Conversion-Unary operator</h1>
+<script>
+var a="10"
+var b=+a
+document.write(typeof a+"<br>"+typeof b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Destructuring</h1>
+<script>
+var car={name:"Fiat",model:"100",color:"Red"}
+var {name,model,cc="10"}=car
+document.write(name,model,cc)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Regular Expression-Search</h1>
+<script>
+var a="Hello World"
+var b=a.search("World")
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Regular Expression-Replace</h1>
+<script>
+var a="Hello World"
+var b=a.replace("World","Universe")
+document.write(a)
+document.write(b)
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Error</h1>
+<script>
+try{
+var a=prompt("enter a number")
+if(a===" ")
+throw "Cannot be Empty"
+if(isNaN(a))
+throw "Enter a valid number"
+document.write(a)
+}
+catch(y){
+document.write(y)
+}
+finally{
+document.write("Exit")
+}
+</script>
+</body>
+</head>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Hoisting</h1>
+<script>
+//function Declaration
+abc()
+function abc(){
+document.write("Hello World")
+}
+
+//function Expression
+let xy=function(){
+document.write("Java Script")
+}
+xy()
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Arrow Function</h1>
+<script>
+abc=(a,b)=>a*b
+document.write(abc(10,5))
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<body>
+<h1>JS Class</h1>
+<script>
+class abc{
+constructor(name,age){
+this.name=name;
+this.age=age
+}
+}
+var ans=new abc("john",25)
+document.write(ans.name+"<br>"+ans.age)
+</script>
+</body>
+</head>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
